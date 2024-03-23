@@ -1,3 +1,5 @@
+/** Gobales */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,17 +11,26 @@ html {
     font-size: 62.5%;
 }
 
-body {
-    padding: 0 10rem;
+
+colores {
+color: #000000;
+color: #E93E30;
+color: #F7E018;
+color: #299ED5;
+color: #292C33;
+color: #67C770;
+color: #563D7C;
 }
 
 
-/* Header */
+/** Header */
 
 header {
     display: flex;
     height: 13rem;
     align-items: center;
+    border-bottom: 2px solid #CCCCCC;
+    padding: 0 10rem;
 }
 
 .header__logo {
@@ -29,7 +40,55 @@ header {
 }
 
 .header__title {
-    font-size: 3rem;
+    font-size: 2.4rem;
     font-weight: bold;
+    padding-left: 2rem;
+}
+
+
+/** Main */
+.main {
+    padding: 0 10rem;
+    margin: 0 auto;
+}
+
+.main__title {
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 2.8rem 0;
+}
+
+/*Novedades */
+.novedad__image {
+    border-radius: 20px;
+    width: 60rem;
+    height: 31rem;
+}
+
+.novedad__date {
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-top: 1.5rem;
+}
+
+.novedad__title {
+    font-size: 2.4rem;
+    padding-top: 1.5rem;
+}
+
+.novedad__authorLogo {
+    display: flex;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.novedad__logo {
+    height: 6rem;
+    border-radius: 100%;
+}
+
+.novedad__author {
+    font-size: 2.4rem;
+    font-weight: 500;
     padding-left: 2rem;
 }
