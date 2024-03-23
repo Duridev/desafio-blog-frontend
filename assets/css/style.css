@@ -5,3 +5,31 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 0 10rem;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    height: 13rem;
+    align-items: center;
+}
+
+.header__logo {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 10px;
+}
+
+.header__title {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 2rem;
+}
