@@ -1,4 +1,4 @@
-/** Gobales */
+/**************************** Gobales */
 
 * {
     margin: 0;
@@ -23,14 +23,14 @@ color: #563D7C;
 }
 
 
-/** Header */
+/***************************** Header */
 
 header {
     display: flex;
     height: 13rem;
     align-items: center;
     border-bottom: 2px solid #CCCCCC;
-    padding: 0 10rem;
+    padding: 0 9%;
 }
 
 .header__logo {
@@ -46,9 +46,9 @@ header {
 }
 
 
-/** Main */
+/***************************** Main */
 .main {
-    padding: 0 10rem;
+    padding: 0 9%;
     margin: 0 auto;
 }
 
@@ -56,6 +56,11 @@ header {
     font-size: 4rem;
     font-weight: bold;
     padding: 2.8rem 0;
+}
+
+.novedades {
+    display: flex;
+    justify-content: space-between;
 }
 
 /*Novedades */
@@ -91,4 +96,54 @@ header {
     font-size: 2.4rem;
     font-weight: 500;
     padding-left: 2rem;
+}
+
+/* Aside */
+
+.asidePosts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+.post {
+    display: flex;
+    margin-bottom: auto;
+}
+
+.post__image {
+    width: 20rem;
+    height: 14rem;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.post__info {
+    margin-left: 3rem;
+}
+
+.post__date {
+    font-size: 1.5rem;  
+}
+
+.post__title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.post__logoAuthor {
+    display: flex;
+    align-items: center;
+}
+
+.post__logo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+}
+
+.post__author {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    font-weight: 500;
 }
