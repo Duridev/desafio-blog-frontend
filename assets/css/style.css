@@ -11,6 +11,9 @@ html {
     font-size: 62.5%;
 }
 
+hr {
+    border: 2px solid #CCCCCC;
+}
 
 /***************************** Header */
 
@@ -18,8 +21,9 @@ header {
     display: flex;
     height: 13rem;
     align-items: center;
-    border-bottom: 2px solid #CCCCCC;
     padding: 0 9%;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .header__logo {
@@ -39,8 +43,8 @@ header {
 .main {
     padding: 0 9%;
     margin: 0 auto;
-    border-bottom: 2px solid #CCCCCC;
     padding-bottom: 4rem;
+    max-width: 1280px;
 }
 
 .main__title {
@@ -144,7 +148,8 @@ header {
 .populares-categorias{
     display: flex;
     padding: 5rem 9%;
-    border-bottom: 2px solid #CCCCCC;
+    max-width: 1280px;
+    margin: auto;
 }
 
 /* populares */
@@ -267,13 +272,15 @@ header {
 
 /***************************** Footer */
 
-footer {
+.footer {
     display: flex;
     height: 13rem;
     align-items: center;
     border-bottom: 2px solid #CCCCCC;
     padding: 0 9%;
     justify-content: space-between;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .footer__container {
