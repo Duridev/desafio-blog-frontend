@@ -12,17 +12,6 @@ html {
 }
 
 
-colores {
-color: #000000;
-color: #E93E30;
-color: #F7E018;
-color: #299ED5;
-color: #292C33;
-color: #67C770;
-color: #563D7C;
-}
-
-
 /***************************** Header */
 
 header {
@@ -50,6 +39,8 @@ header {
 .main {
     padding: 0 9%;
     margin: 0 auto;
+    border-bottom: 2px solid #CCCCCC;
+    padding-bottom: 4rem;
 }
 
 .main__title {
@@ -147,3 +138,123 @@ header {
     margin-left: 1rem;
     font-weight: 500;
 }
+
+/***************** Populares y categorías  */
+
+.populares-categorias{
+    display: flex;
+    padding: 0 9%;
+}
+
+/* populares */
+
+.populares__title {
+    margin-bottom: 2.5rem;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__image {
+    width: 30rem;
+    height: 20rem;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.card__date {
+    font-size: 1.6rem;  
+}
+
+.card__title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card__logoAuthor {
+    display: flex;
+    align-items: center;
+}
+
+.card__logo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+}
+
+.card__author {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
+/* Categorías */
+
+.categorias__title {
+    margin-bottom: 2.5rem;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.categorias__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.categoria__tecnologia {
+    width: 30rem;
+    height: 9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+    border-radius: 10px;
+    padding-inline:  2rem;
+    margin-bottom: 2.5rem;
+}
+
+.categoría__image {
+    width: 8.5rem;
+    height: 8.5rem;
+}
+
+.categoria__name {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.categoria__tecnologia--html {
+    background-color:#E93E30;
+}
+
+.categoria__tecnologia--javascript {
+    background-color:#F7E018 ;
+}
+
+.categoria__tecnologia--css {
+    background-color:#299ED5 ;
+}
+
+.categoria__tecnologia--react {
+    background-color:#292C33 ;
+}
+
+.categoria__tecnologia--vue {
+    background-color:#67C770 ;
+}
+
+.categoria__tecnologia--bootstrap {
+    background-color:#563D7C ;
+}
+
+
+
