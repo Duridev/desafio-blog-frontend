@@ -175,6 +175,7 @@ header {
 
 .card__date {
     font-size: 1.6rem;  
+    padding-top: 1rem;
 }
 
 .card__title {
